@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="t" placeholder="Enter Celsius">
+<button onclick="convert()">Convert</button>
+
+<p id="r"></p>
+
+<script>
+function convert(){
+  let c = document.getElementById("t").value;
+  document.getElementById("r").innerHTML = (c*9/5)+32 + " °F";
+}
+</script>
+
+</body>
+</html>
